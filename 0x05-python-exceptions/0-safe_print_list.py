@@ -7,7 +7,6 @@ def safe_print_list(my_list=[], x=0):
     Returns:
         The number of elements printed.
     """
-
     total = 0
     for i in range(x):
         try:
@@ -15,6 +14,6 @@ def safe_print_list(my_list=[], x=0):
             total += 1
         except IndexError:
             break
-    print("")
+    print()
     return (total)
 

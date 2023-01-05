@@ -1,18 +1,14 @@
 #!/usr/bin/python3
-"""Defines a Rectangle class wit properties width and height"""
+"""
+Defines a Rectangle class wit properties width and height
+"""
 
 
 class Rectangle:
-    """Represent a rectangle.
-
-    Attributes:
-        number_of_instances (int): The number of Rectangle instances.
-    """
-
+    """ class variable, counts number of instances """
     number_of_instances = 0
 
         """Initialize a new Rectangle class"""
-
     def __init__(self, width=0, height0):
         self.__width = width
         self.__height = height

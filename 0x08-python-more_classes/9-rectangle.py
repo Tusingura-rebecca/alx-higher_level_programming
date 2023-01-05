@@ -12,7 +12,7 @@ class Rectangle:
     print_symbol = "#"
 
     """ Initializes Rectangle class """
-    def __init__(self, width=0, height=0
+    def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
         Rectangle.number_of_instances += 1
@@ -83,7 +83,7 @@ class Rectangle:
 
     """ returns the Rectangle instance with the bigger area """
     @staticmethod
-    def bigger_or_equal(rect_1, rect_2)
+    def bigger_or_equal(rect_1, rect_2):
         if rect_1.area() > rect_2.area():
             return rect_1
         elif rect_1.area() < rect_2.area():
